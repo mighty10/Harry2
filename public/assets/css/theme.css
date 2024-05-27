@@ -41,6 +41,31 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 254, 254, 0.15), rgba(255, 254, 254, 0));
 }
 
+.hero-title
+{
+  
+  background-image: linear-gradient(
+    -225deg,
+    #00ffd4 0%,
+    #fb00e7 29%,
+    #00ffd4 67%,
+    #fb00e7 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+    
+}
+
+
 *,
 *::before,
 *::after {
